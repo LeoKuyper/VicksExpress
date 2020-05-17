@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E820142471989C002DA8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E820132471989C002DA8BC /* AppDelegate.swift */; };
+		35E820162471989C002DA8BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E820152471989C002DA8BC /* ContentView.swift */; };
+		35E820182471989C002DA8BC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 35E820172471989C002DA8BC /* Experience.rcproject */; };
+		35E8201A2471989D002DA8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E820192471989D002DA8BC /* Assets.xcassets */; };
+		35E8201D2471989D002DA8BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E8201C2471989D002DA8BC /* Preview Assets.xcassets */; };
+		35E820202471989D002DA8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E8201E2471989D002DA8BC /* LaunchScreen.storyboard */; };
+		35E8202B2471989D002DA8BC /* VicksExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E8202A2471989D002DA8BC /* VicksExpressTests.swift */; };
+		35E820362471989D002DA8BC /* VicksExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E820352471989D002DA8BC /* VicksExpressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35E820272471989D002DA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E820082471989C002DA8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E8200F2471989C002DA8BC;
+			remoteInfo = VicksExpress;
+		};
+		35E820322471989D002DA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E820082471989C002DA8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E8200F2471989C002DA8BC;
+			remoteInfo = VicksExpress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35E820102471989C002DA8BC /* VicksExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VicksExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E820132471989C002DA8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35E820152471989C002DA8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35E820172471989C002DA8BC /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		35E820192471989D002DA8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35E8201C2471989D002DA8BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35E8201F2471989D002DA8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35E820212471989D002DA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E820262471989D002DA8BC /* VicksExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VicksExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E8202A2471989D002DA8BC /* VicksExpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicksExpressTests.swift; sourceTree = "<group>"; };
+		35E8202C2471989D002DA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E820312471989D002DA8BC /* VicksExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VicksExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E820352471989D002DA8BC /* VicksExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicksExpressUITests.swift; sourceTree = "<group>"; };
+		35E820372471989D002DA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E8200D2471989C002DA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E820232471989D002DA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E8202E2471989D002DA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E820072471989C002DA8BC = {
+			isa = PBXGroup;
+			children = (
+				35E820122471989C002DA8BC /* VicksExpress */,
+				35E820292471989D002DA8BC /* VicksExpressTests */,
+				35E820342471989D002DA8BC /* VicksExpressUITests */,
+				35E820112471989C002DA8BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E820112471989C002DA8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E820102471989C002DA8BC /* VicksExpress.app */,
+				35E820262471989D002DA8BC /* VicksExpressTests.xctest */,
+				35E820312471989D002DA8BC /* VicksExpressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E820122471989C002DA8BC /* VicksExpress */ = {
+			isa = PBXGroup;
+			children = (
+				35E820132471989C002DA8BC /* AppDelegate.swift */,
+				35E820152471989C002DA8BC /* ContentView.swift */,
+				35E820172471989C002DA8BC /* Experience.rcproject */,
+				35E820192471989D002DA8BC /* Assets.xcassets */,
+				35E8201E2471989D002DA8BC /* LaunchScreen.storyboard */,
+				35E820212471989D002DA8BC /* Info.plist */,
+				35E8201B2471989D002DA8BC /* Preview Content */,
+			);
+			path = VicksExpress;
+			sourceTree = "<group>";
+		};
+		35E8201B2471989D002DA8BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35E8201C2471989D002DA8BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35E820292471989D002DA8BC /* VicksExpressTests */ = {
+			isa = PBXGroup;
+			children = (
+				35E8202A2471989D002DA8BC /* VicksExpressTests.swift */,
+				35E8202C2471989D002DA8BC /* Info.plist */,
+			);
+			path = VicksExpressTests;
+			sourceTree = "<group>";
+		};
+		35E820342471989D002DA8BC /* VicksExpressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35E820352471989D002DA8BC /* VicksExpressUITests.swift */,
+				35E820372471989D002DA8BC /* Info.plist */,
+			);
+			path = VicksExpressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35E8200F2471989C002DA8BC /* VicksExpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E8203A2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpress" */;
+			buildPhases = (
+				35E8200C2471989C002DA8BC /* Sources */,
+				35E8200D2471989C002DA8BC /* Frameworks */,
+				35E8200E2471989C002DA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VicksExpress;
+			productName = VicksExpress;
+			productReference = 35E820102471989C002DA8BC /* VicksExpress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35E820252471989D002DA8BC /* VicksExpressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E8203D2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressTests" */;
+			buildPhases = (
+				35E820222471989D002DA8BC /* Sources */,
+				35E820232471989D002DA8BC /* Frameworks */,
+				35E820242471989D002DA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E820282471989D002DA8BC /* PBXTargetDependency */,
+			);
+			name = VicksExpressTests;
+			productName = VicksExpressTests;
+			productReference = 35E820262471989D002DA8BC /* VicksExpressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35E820302471989D002DA8BC /* VicksExpressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E820402471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressUITests" */;
+			buildPhases = (
+				35E8202D2471989D002DA8BC /* Sources */,
+				35E8202E2471989D002DA8BC /* Frameworks */,
+				35E8202F2471989D002DA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E820332471989D002DA8BC /* PBXTargetDependency */,
+			);
+			name = VicksExpressUITests;
+			productName = VicksExpressUITests;
+			productReference = 35E820312471989D002DA8BC /* VicksExpressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E820082471989C002DA8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Leo Kuyper";
+				TargetAttributes = {
+					35E8200F2471989C002DA8BC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					35E820252471989D002DA8BC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 35E8200F2471989C002DA8BC;
+					};
+					35E820302471989D002DA8BC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 35E8200F2471989C002DA8BC;
+					};
+				};
+			};
+			buildConfigurationList = 35E8200B2471989C002DA8BC /* Build configuration list for PBXProject "VicksExpress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35E820072471989C002DA8BC;
+			productRefGroup = 35E820112471989C002DA8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35E8200F2471989C002DA8BC /* VicksExpress */,
+				35E820252471989D002DA8BC /* VicksExpressTests */,
+				35E820302471989D002DA8BC /* VicksExpressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E8200E2471989C002DA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E820202471989D002DA8BC /* LaunchScreen.storyboard in Resources */,
+				35E8201D2471989D002DA8BC /* Preview Assets.xcassets in Resources */,
+				35E8201A2471989D002DA8BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E820242471989D002DA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E8202F2471989D002DA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E8200C2471989C002DA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E820162471989C002DA8BC /* ContentView.swift in Sources */,
+				35E820142471989C002DA8BC /* AppDelegate.swift in Sources */,
+				35E820182471989C002DA8BC /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E820222471989D002DA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E8202B2471989D002DA8BC /* VicksExpressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E8202D2471989D002DA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E820362471989D002DA8BC /* VicksExpressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35E820282471989D002DA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E8200F2471989C002DA8BC /* VicksExpress */;
+			targetProxy = 35E820272471989D002DA8BC /* PBXContainerItemProxy */;
+		};
+		35E820332471989D002DA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E8200F2471989C002DA8BC /* VicksExpress */;
+			targetProxy = 35E820322471989D002DA8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35E8201E2471989D002DA8BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E8201F2471989D002DA8BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35E820382471989D002DA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35E820392471989D002DA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35E8203B2471989D002DA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VicksExpress/Preview Content\"";
+				DEVELOPMENT_TEAM = J766R82Z52;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VicksExpress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoKuyper.VicksExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35E8203C2471989D002DA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VicksExpress/Preview Content\"";
+				DEVELOPMENT_TEAM = J766R82Z52;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VicksExpress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoKuyper.VicksExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35E8203E2471989D002DA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J766R82Z52;
+				INFOPLIST_FILE = VicksExpressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoKuyper.VicksExpressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VicksExpress.app/VicksExpress";
+			};
+			name = Debug;
+		};
+		35E8203F2471989D002DA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J766R82Z52;
+				INFOPLIST_FILE = VicksExpressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoKuyper.VicksExpressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VicksExpress.app/VicksExpress";
+			};
+			name = Release;
+		};
+		35E820412471989D002DA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J766R82Z52;
+				INFOPLIST_FILE = VicksExpressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoKuyper.VicksExpressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VicksExpress;
+			};
+			name = Debug;
+		};
+		35E820422471989D002DA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J766R82Z52;
+				INFOPLIST_FILE = VicksExpressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeoKuyper.VicksExpressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VicksExpress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E8200B2471989C002DA8BC /* Build configuration list for PBXProject "VicksExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E820382471989D002DA8BC /* Debug */,
+				35E820392471989D002DA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E8203A2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E8203B2471989D002DA8BC /* Debug */,
+				35E8203C2471989D002DA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E8203D2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E8203E2471989D002DA8BC /* Debug */,
+				35E8203F2471989D002DA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E820402471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E820412471989D002DA8BC /* Debug */,
+				35E820422471989D002DA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E820082471989C002DA8BC /* Project object */;
+}

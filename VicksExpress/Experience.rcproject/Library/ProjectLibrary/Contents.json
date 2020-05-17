@@ -1,3 +1,12 @@
 [
-
+  {
+    "libraryIdentifier" : "ad921212bac5d6d064e26f2a4320bd7a",
+    "format" : "arObject",
+    "displayName" : "Vicks.arobject"
+  },
+  {
+    "libraryIdentifier" : "8ef43fba245e0c24f6fe5546ac57e669",
+    "format" : "image",
+    "displayName" : "body.png"
+  }
 ]

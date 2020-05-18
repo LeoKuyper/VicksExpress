@@ -8,5 +8,25 @@
     "libraryIdentifier" : "8ef43fba245e0c24f6fe5546ac57e669",
     "format" : "image",
     "displayName" : "body.png"
+  },
+  {
+    "libraryIdentifier" : "f4c57b8fc914b9476698bc763b0db767",
+    "format" : "image",
+    "displayName" : "Ear.png"
+  },
+  {
+    "libraryIdentifier" : "9e06eb4b05756285aed7a89c76c4a9aa",
+    "format" : "image",
+    "displayName" : "chest.png"
+  },
+  {
+    "libraryIdentifier" : "7f2baf5e27e7ea289eb8ab0fcb57417d",
+    "format" : "image",
+    "displayName" : "injured.png"
+  },
+  {
+    "libraryIdentifier" : "d20200f0d86b225d92edef5ef958ef18",
+    "format" : "arObject",
+    "displayName" : "Vicks v2.arobject"
   }
 ]

@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35E820142471989C002DA8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E820132471989C002DA8BC /* AppDelegate.swift */; };
-		35E820162471989C002DA8BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E820152471989C002DA8BC /* ContentView.swift */; };
-		35E820182471989C002DA8BC /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 35E820172471989C002DA8BC /* Experience.rcproject */; };
-		35E8201A2471989D002DA8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E820192471989D002DA8BC /* Assets.xcassets */; };
-		35E8201D2471989D002DA8BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E8201C2471989D002DA8BC /* Preview Assets.xcassets */; };
-		35E820202471989D002DA8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E8201E2471989D002DA8BC /* LaunchScreen.storyboard */; };
-		35E8202B2471989D002DA8BC /* VicksExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E8202A2471989D002DA8BC /* VicksExpressTests.swift */; };
-		35E820362471989D002DA8BC /* VicksExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E820352471989D002DA8BC /* VicksExpressUITests.swift */; };
+		35983156247AC8FC00DF4F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35983155247AC8FC00DF4F25 /* AppDelegate.swift */; };
+		35983158247AC8FC00DF4F25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35983157247AC8FC00DF4F25 /* ViewController.swift */; };
+		3598315A247AC8FC00DF4F25 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 35983159247AC8FC00DF4F25 /* Experience.rcproject */; };
+		3598315D247AC8FC00DF4F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3598315B247AC8FC00DF4F25 /* Main.storyboard */; };
+		3598315F247AC8FE00DF4F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3598315E247AC8FE00DF4F25 /* Assets.xcassets */; };
+		35983162247AC8FE00DF4F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35983160247AC8FE00DF4F25 /* LaunchScreen.storyboard */; };
+		3598316D247AC8FE00DF4F25 /* VicksExpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598316C247AC8FE00DF4F25 /* VicksExpressTests.swift */; };
+		35983178247AC8FE00DF4F25 /* VicksExpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35983177247AC8FE00DF4F25 /* VicksExpressUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35E820272471989D002DA8BC /* PBXContainerItemProxy */ = {
+		35983169247AC8FE00DF4F25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 35E820082471989C002DA8BC /* Project object */;
+			containerPortal = 3598314A247AC8FC00DF4F25 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35E8200F2471989C002DA8BC;
+			remoteGlobalIDString = 35983151247AC8FC00DF4F25;
 			remoteInfo = VicksExpress;
 		};
-		35E820322471989D002DA8BC /* PBXContainerItemProxy */ = {
+		35983174247AC8FE00DF4F25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 35E820082471989C002DA8BC /* Project object */;
+			containerPortal = 3598314A247AC8FC00DF4F25 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35E8200F2471989C002DA8BC;
+			remoteGlobalIDString = 35983151247AC8FC00DF4F25;
 			remoteInfo = VicksExpress;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35E820102471989C002DA8BC /* VicksExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VicksExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35E820132471989C002DA8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35E820152471989C002DA8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		35E820172471989C002DA8BC /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		35E820192471989D002DA8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35E8201C2471989D002DA8BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		35E8201F2471989D002DA8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		35E820212471989D002DA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35E820262471989D002DA8BC /* VicksExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VicksExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35E8202A2471989D002DA8BC /* VicksExpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicksExpressTests.swift; sourceTree = "<group>"; };
-		35E8202C2471989D002DA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35E820312471989D002DA8BC /* VicksExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VicksExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35E820352471989D002DA8BC /* VicksExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicksExpressUITests.swift; sourceTree = "<group>"; };
-		35E820372471989D002DA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35983152247AC8FC00DF4F25 /* VicksExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VicksExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35983155247AC8FC00DF4F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35983157247AC8FC00DF4F25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35983159247AC8FC00DF4F25 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		3598315C247AC8FC00DF4F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3598315E247AC8FE00DF4F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35983161247AC8FE00DF4F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35983163247AC8FE00DF4F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35983168247AC8FE00DF4F25 /* VicksExpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VicksExpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598316C247AC8FE00DF4F25 /* VicksExpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicksExpressTests.swift; sourceTree = "<group>"; };
+		3598316E247AC8FE00DF4F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35983173247AC8FE00DF4F25 /* VicksExpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VicksExpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35983177247AC8FE00DF4F25 /* VicksExpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicksExpressUITests.swift; sourceTree = "<group>"; };
+		35983179247AC8FE00DF4F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35E8200D2471989C002DA8BC /* Frameworks */ = {
+		3598314F247AC8FC00DF4F25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35E820232471989D002DA8BC /* Frameworks */ = {
+		35983165247AC8FE00DF4F25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35E8202E2471989D002DA8BC /* Frameworks */ = {
+		35983170247AC8FE00DF4F25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35E820072471989C002DA8BC = {
+		35983149247AC8FC00DF4F25 = {
 			isa = PBXGroup;
 			children = (
-				35E820122471989C002DA8BC /* VicksExpress */,
-				35E820292471989D002DA8BC /* VicksExpressTests */,
-				35E820342471989D002DA8BC /* VicksExpressUITests */,
-				35E820112471989C002DA8BC /* Products */,
+				35983154247AC8FC00DF4F25 /* VicksExpress */,
+				3598316B247AC8FE00DF4F25 /* VicksExpressTests */,
+				35983176247AC8FE00DF4F25 /* VicksExpressUITests */,
+				35983153247AC8FC00DF4F25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		35E820112471989C002DA8BC /* Products */ = {
+		35983153247AC8FC00DF4F25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35E820102471989C002DA8BC /* VicksExpress.app */,
-				35E820262471989D002DA8BC /* VicksExpressTests.xctest */,
-				35E820312471989D002DA8BC /* VicksExpressUITests.xctest */,
+				35983152247AC8FC00DF4F25 /* VicksExpress.app */,
+				35983168247AC8FE00DF4F25 /* VicksExpressTests.xctest */,
+				35983173247AC8FE00DF4F25 /* VicksExpressUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35E820122471989C002DA8BC /* VicksExpress */ = {
+		35983154247AC8FC00DF4F25 /* VicksExpress */ = {
 			isa = PBXGroup;
 			children = (
-				35E820132471989C002DA8BC /* AppDelegate.swift */,
-				35E820152471989C002DA8BC /* ContentView.swift */,
-				35E820172471989C002DA8BC /* Experience.rcproject */,
-				35E820192471989D002DA8BC /* Assets.xcassets */,
-				35E8201E2471989D002DA8BC /* LaunchScreen.storyboard */,
-				35E820212471989D002DA8BC /* Info.plist */,
-				35E8201B2471989D002DA8BC /* Preview Content */,
+				35983155247AC8FC00DF4F25 /* AppDelegate.swift */,
+				35983157247AC8FC00DF4F25 /* ViewController.swift */,
+				35983159247AC8FC00DF4F25 /* Experience.rcproject */,
+				3598315B247AC8FC00DF4F25 /* Main.storyboard */,
+				3598315E247AC8FE00DF4F25 /* Assets.xcassets */,
+				35983160247AC8FE00DF4F25 /* LaunchScreen.storyboard */,
+				35983163247AC8FE00DF4F25 /* Info.plist */,
 			);
 			path = VicksExpress;
 			sourceTree = "<group>";
 		};
-		35E8201B2471989D002DA8BC /* Preview Content */ = {
+		3598316B247AC8FE00DF4F25 /* VicksExpressTests */ = {
 			isa = PBXGroup;
 			children = (
-				35E8201C2471989D002DA8BC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		35E820292471989D002DA8BC /* VicksExpressTests */ = {
-			isa = PBXGroup;
-			children = (
-				35E8202A2471989D002DA8BC /* VicksExpressTests.swift */,
-				35E8202C2471989D002DA8BC /* Info.plist */,
+				3598316C247AC8FE00DF4F25 /* VicksExpressTests.swift */,
+				3598316E247AC8FE00DF4F25 /* Info.plist */,
 			);
 			path = VicksExpressTests;
 			sourceTree = "<group>";
 		};
-		35E820342471989D002DA8BC /* VicksExpressUITests */ = {
+		35983176247AC8FE00DF4F25 /* VicksExpressUITests */ = {
 			isa = PBXGroup;
 			children = (
-				35E820352471989D002DA8BC /* VicksExpressUITests.swift */,
-				35E820372471989D002DA8BC /* Info.plist */,
+				35983177247AC8FE00DF4F25 /* VicksExpressUITests.swift */,
+				35983179247AC8FE00DF4F25 /* Info.plist */,
 			);
 			path = VicksExpressUITests;
 			sourceTree = "<group>";
@@ -139,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35E8200F2471989C002DA8BC /* VicksExpress */ = {
+		35983151247AC8FC00DF4F25 /* VicksExpress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35E8203A2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpress" */;
+			buildConfigurationList = 3598317C247AC8FE00DF4F25 /* Build configuration list for PBXNativeTarget "VicksExpress" */;
 			buildPhases = (
-				35E8200C2471989C002DA8BC /* Sources */,
-				35E8200D2471989C002DA8BC /* Frameworks */,
-				35E8200E2471989C002DA8BC /* Resources */,
+				3598314E247AC8FC00DF4F25 /* Sources */,
+				3598314F247AC8FC00DF4F25 /* Frameworks */,
+				35983150247AC8FC00DF4F25 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +145,69 @@
 			);
 			name = VicksExpress;
 			productName = VicksExpress;
-			productReference = 35E820102471989C002DA8BC /* VicksExpress.app */;
+			productReference = 35983152247AC8FC00DF4F25 /* VicksExpress.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35E820252471989D002DA8BC /* VicksExpressTests */ = {
+		35983167247AC8FE00DF4F25 /* VicksExpressTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35E8203D2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressTests" */;
+			buildConfigurationList = 3598317F247AC8FE00DF4F25 /* Build configuration list for PBXNativeTarget "VicksExpressTests" */;
 			buildPhases = (
-				35E820222471989D002DA8BC /* Sources */,
-				35E820232471989D002DA8BC /* Frameworks */,
-				35E820242471989D002DA8BC /* Resources */,
+				35983164247AC8FE00DF4F25 /* Sources */,
+				35983165247AC8FE00DF4F25 /* Frameworks */,
+				35983166247AC8FE00DF4F25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35E820282471989D002DA8BC /* PBXTargetDependency */,
+				3598316A247AC8FE00DF4F25 /* PBXTargetDependency */,
 			);
 			name = VicksExpressTests;
 			productName = VicksExpressTests;
-			productReference = 35E820262471989D002DA8BC /* VicksExpressTests.xctest */;
+			productReference = 35983168247AC8FE00DF4F25 /* VicksExpressTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		35E820302471989D002DA8BC /* VicksExpressUITests */ = {
+		35983172247AC8FE00DF4F25 /* VicksExpressUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35E820402471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressUITests" */;
+			buildConfigurationList = 35983182247AC8FE00DF4F25 /* Build configuration list for PBXNativeTarget "VicksExpressUITests" */;
 			buildPhases = (
-				35E8202D2471989D002DA8BC /* Sources */,
-				35E8202E2471989D002DA8BC /* Frameworks */,
-				35E8202F2471989D002DA8BC /* Resources */,
+				3598316F247AC8FE00DF4F25 /* Sources */,
+				35983170247AC8FE00DF4F25 /* Frameworks */,
+				35983171247AC8FE00DF4F25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				35E820332471989D002DA8BC /* PBXTargetDependency */,
+				35983175247AC8FE00DF4F25 /* PBXTargetDependency */,
 			);
 			name = VicksExpressUITests;
 			productName = VicksExpressUITests;
-			productReference = 35E820312471989D002DA8BC /* VicksExpressUITests.xctest */;
+			productReference = 35983173247AC8FE00DF4F25 /* VicksExpressUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35E820082471989C002DA8BC /* Project object */ = {
+		3598314A247AC8FC00DF4F25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Leo Kuyper";
 				TargetAttributes = {
-					35E8200F2471989C002DA8BC = {
+					35983151247AC8FC00DF4F25 = {
 						CreatedOnToolsVersion = 11.5;
 					};
-					35E820252471989D002DA8BC = {
+					35983167247AC8FE00DF4F25 = {
 						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 35E8200F2471989C002DA8BC;
+						TestTargetID = 35983151247AC8FC00DF4F25;
 					};
-					35E820302471989D002DA8BC = {
+					35983172247AC8FE00DF4F25 = {
 						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 35E8200F2471989C002DA8BC;
+						TestTargetID = 35983151247AC8FC00DF4F25;
 					};
 				};
 			};
-			buildConfigurationList = 35E8200B2471989C002DA8BC /* Build configuration list for PBXProject "VicksExpress" */;
+			buildConfigurationList = 3598314D247AC8FC00DF4F25 /* Build configuration list for PBXProject "VicksExpress" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 35E820072471989C002DA8BC;
-			productRefGroup = 35E820112471989C002DA8BC /* Products */;
+			mainGroup = 35983149247AC8FC00DF4F25;
+			productRefGroup = 35983153247AC8FC00DF4F25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35E8200F2471989C002DA8BC /* VicksExpress */,
-				35E820252471989D002DA8BC /* VicksExpressTests */,
-				35E820302471989D002DA8BC /* VicksExpressUITests */,
+				35983151247AC8FC00DF4F25 /* VicksExpress */,
+				35983167247AC8FE00DF4F25 /* VicksExpressTests */,
+				35983172247AC8FE00DF4F25 /* VicksExpressUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35E8200E2471989C002DA8BC /* Resources */ = {
+		35983150247AC8FC00DF4F25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E820202471989D002DA8BC /* LaunchScreen.storyboard in Resources */,
-				35E8201D2471989D002DA8BC /* Preview Assets.xcassets in Resources */,
-				35E8201A2471989D002DA8BC /* Assets.xcassets in Resources */,
+				35983162247AC8FE00DF4F25 /* LaunchScreen.storyboard in Resources */,
+				3598315F247AC8FE00DF4F25 /* Assets.xcassets in Resources */,
+				3598315D247AC8FC00DF4F25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35E820242471989D002DA8BC /* Resources */ = {
+		35983166247AC8FE00DF4F25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35E8202F2471989D002DA8BC /* Resources */ = {
+		35983171247AC8FE00DF4F25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35E8200C2471989C002DA8BC /* Sources */ = {
+		3598314E247AC8FC00DF4F25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E820162471989C002DA8BC /* ContentView.swift in Sources */,
-				35E820142471989C002DA8BC /* AppDelegate.swift in Sources */,
-				35E820182471989C002DA8BC /* Experience.rcproject in Sources */,
+				35983158247AC8FC00DF4F25 /* ViewController.swift in Sources */,
+				35983156247AC8FC00DF4F25 /* AppDelegate.swift in Sources */,
+				3598315A247AC8FC00DF4F25 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35E820222471989D002DA8BC /* Sources */ = {
+		35983164247AC8FE00DF4F25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E8202B2471989D002DA8BC /* VicksExpressTests.swift in Sources */,
+				3598316D247AC8FE00DF4F25 /* VicksExpressTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35E8202D2471989D002DA8BC /* Sources */ = {
+		3598316F247AC8FE00DF4F25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E820362471989D002DA8BC /* VicksExpressUITests.swift in Sources */,
+				35983178247AC8FE00DF4F25 /* VicksExpressUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35E820282471989D002DA8BC /* PBXTargetDependency */ = {
+		3598316A247AC8FE00DF4F25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35E8200F2471989C002DA8BC /* VicksExpress */;
-			targetProxy = 35E820272471989D002DA8BC /* PBXContainerItemProxy */;
+			target = 35983151247AC8FC00DF4F25 /* VicksExpress */;
+			targetProxy = 35983169247AC8FE00DF4F25 /* PBXContainerItemProxy */;
 		};
-		35E820332471989D002DA8BC /* PBXTargetDependency */ = {
+		35983175247AC8FE00DF4F25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35E8200F2471989C002DA8BC /* VicksExpress */;
-			targetProxy = 35E820322471989D002DA8BC /* PBXContainerItemProxy */;
+			target = 35983151247AC8FC00DF4F25 /* VicksExpress */;
+			targetProxy = 35983174247AC8FE00DF4F25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35E8201E2471989D002DA8BC /* LaunchScreen.storyboard */ = {
+		3598315B247AC8FC00DF4F25 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35E8201F2471989D002DA8BC /* Base */,
+				3598315C247AC8FC00DF4F25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35983160247AC8FE00DF4F25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35983161247AC8FE00DF4F25 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		35E820382471989D002DA8BC /* Debug */ = {
+		3598317A247AC8FE00DF4F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		35E820392471989D002DA8BC /* Release */ = {
+		3598317B247AC8FE00DF4F25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,14 +430,12 @@
 			};
 			name = Release;
 		};
-		35E8203B2471989D002DA8BC /* Debug */ = {
+		3598317D247AC8FE00DF4F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"VicksExpress/Preview Content\"";
 				DEVELOPMENT_TEAM = J766R82Z52;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VicksExpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,14 +448,12 @@
 			};
 			name = Debug;
 		};
-		35E8203C2471989D002DA8BC /* Release */ = {
+		3598317E247AC8FE00DF4F25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"VicksExpress/Preview Content\"";
 				DEVELOPMENT_TEAM = J766R82Z52;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VicksExpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,7 +466,7 @@
 			};
 			name = Release;
 		};
-		35E8203E2471989D002DA8BC /* Debug */ = {
+		35983180247AC8FE00DF4F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -492,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		35E8203F2471989D002DA8BC /* Release */ = {
+		35983181247AC8FE00DF4F25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +510,7 @@
 			};
 			name = Release;
 		};
-		35E820412471989D002DA8BC /* Debug */ = {
+		35983183247AC8FE00DF4F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		35E820422471989D002DA8BC /* Release */ = {
+		35983184247AC8FE00DF4F25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -557,43 +553,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35E8200B2471989C002DA8BC /* Build configuration list for PBXProject "VicksExpress" */ = {
+		3598314D247AC8FC00DF4F25 /* Build configuration list for PBXProject "VicksExpress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35E820382471989D002DA8BC /* Debug */,
-				35E820392471989D002DA8BC /* Release */,
+				3598317A247AC8FE00DF4F25 /* Debug */,
+				3598317B247AC8FE00DF4F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35E8203A2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpress" */ = {
+		3598317C247AC8FE00DF4F25 /* Build configuration list for PBXNativeTarget "VicksExpress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35E8203B2471989D002DA8BC /* Debug */,
-				35E8203C2471989D002DA8BC /* Release */,
+				3598317D247AC8FE00DF4F25 /* Debug */,
+				3598317E247AC8FE00DF4F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35E8203D2471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressTests" */ = {
+		3598317F247AC8FE00DF4F25 /* Build configuration list for PBXNativeTarget "VicksExpressTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35E8203E2471989D002DA8BC /* Debug */,
-				35E8203F2471989D002DA8BC /* Release */,
+				35983180247AC8FE00DF4F25 /* Debug */,
+				35983181247AC8FE00DF4F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35E820402471989D002DA8BC /* Build configuration list for PBXNativeTarget "VicksExpressUITests" */ = {
+		35983182247AC8FE00DF4F25 /* Build configuration list for PBXNativeTarget "VicksExpressUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35E820412471989D002DA8BC /* Debug */,
-				35E820422471989D002DA8BC /* Release */,
+				35983183247AC8FE00DF4F25 /* Debug */,
+				35983184247AC8FE00DF4F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35E820082471989C002DA8BC /* Project object */;
+	rootObject = 3598314A247AC8FC00DF4F25 /* Project object */;
 }

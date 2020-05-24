@@ -28,5 +28,10 @@
     "libraryIdentifier" : "d20200f0d86b225d92edef5ef958ef18",
     "format" : "arObject",
     "displayName" : "Vicks v2.arobject"
+  },
+  {
+    "libraryIdentifier" : "07fe2716042e2b74eb5be6ffa8f0c732",
+    "format" : "arObject",
+    "displayName" : "Scan_15-47-11.arobject"
   }
 ]

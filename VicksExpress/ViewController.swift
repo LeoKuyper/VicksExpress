@@ -90,11 +90,11 @@ class ViewController: UIViewController {
         }
         if (text == "back"){
             TitleLabel.text = "How to use Vicks on your back?"
-            BodyLabel.text = "Apply"
+            BodyLabel.text = "Apply Vicks to your back and it will relief coughing, catarrh and phlegm that give you a chesty cough"
         }
         if (text == "chest"){
             TitleLabel.text = "How to use Vicks on you chest"
-            BodyLabel.text = "Apply"
+            BodyLabel.text = "Apply Vicks to your chest and it will relief coughing, catarrh and phlegm that give you a chesty cough"
         }
        
     }

@@ -33,6 +33,13 @@ class ViewController: UIViewController {
     }
     
         var old = "data";
+    var dialogOpen = false;
+        let hapticImpact = UIImpactFeedbackGenerator()
+    
+    //            let hapticnNotification = UINotificationFeedbackGenerator()
+    //            let hapticSelection = UISelectionFeedbackGenerator()
+                
+//                hapticImpact.impactOccurred()
     
         func handlePain(_ entity: Entity?){
             guard entity != nil else {return}
@@ -67,6 +74,7 @@ class ViewController: UIViewController {
         }
     
     func textBoxToggle(type :String) {
+        triggerAnimation(_sender: "animate", text: type)
         
         if (type == old){
             if (TextBox.isHidden == false){
@@ -76,17 +84,45 @@ class ViewController: UIViewController {
                 TextBox.isHidden = false
             }
         }
+        else {
+            if (TextBox.isHidden == true){
+                TextBox.isHidden = false
+            }
+        }
             old = type
         }
     
+    func triggerAnimation(_sender: Any, text: String){
+        
+        hapticImpact.impactOccurred()
+        if let sceneAnchor = arView.scene.anchors[0] as? Experience.Box {
+            
+            
+            if text == "pain" {
+                sceneAnchor.notifications.painAnimate.post()
+            }
+            if text == "ear" {
+                sceneAnchor.notifications.earAnimate.post()
+            }
+            if text == "chest" {
+                sceneAnchor.notifications.chestAnimate.post()
+            }
+            if text == "back" {
+                sceneAnchor.notifications.backAnimate.post()
+            }
+            
+        }
+    }
+    
+    
     func textBoxData(text: String){
         if (text == "pain"){
-            TitleLabel.text = "How to use Vicks with a cut or painful area?"
-            BodyLabel.text = "Apply to the painful area"
+            TitleLabel.text = "Vicks can be applied to a painful or cut area"
+            BodyLabel.text = "Apply to the directly to the painful or cut area - It will heal the cut and relive the pain"
         }
         if (text == "ear"){
             TitleLabel.text = "How to use Vicks to stop ear pain"
-            BodyLabel.text = "Take a cotton swob and and apply Vicks"
+            BodyLabel.text = "Take a cotton swob and and apply Vicks to it, then place it in the ear."
         }
         if (text == "back"){
             TitleLabel.text = "How to use Vicks on your back?"

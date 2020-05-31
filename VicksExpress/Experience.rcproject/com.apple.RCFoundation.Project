@@ -41,8 +41,7 @@
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "03B68F07-A3A5-498B-8F8D-A99BDCCAF6BE",
-                                            "D9697B7D-990F-4091-8E05-E1F87CC77A4C"
+                                            "03B68F07-A3A5-498B-8F8D-A99BDCCAF6BE"
                                           ]
                                         },
                                         "name" : {
@@ -438,7 +437,7 @@
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "83CDBC89-B20F-4D50-B3C6-338C63507355",
+                              "identifier" : "728F1E50-8A68-4667-88EA-F567A7A46DFB",
                               "isEnabled" : true
                             }
                           ],
@@ -734,30 +733,241 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "axis" : [
-                                            0,
-                                            0,
-                                            1
-                                          ],
-                                          "direction" : "clockwise",
-                                          "duration" : 4,
-                                          "iterations" : 1,
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.tube-hit-fx-02\/Tube%20Hit%20FX%2002.caf",
+                                          "loops" : false,
                                           "target" : [
-                                            "D9697B7D-990F-4091-8E05-E1F87CC77A4C"
+                                            "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "arguments" : "stereoBypass",
+                                          "type" : "soundtrack"
+                                        }
+                                      },
+                                      "identifier" : "A49FAD84-CA5B-4B4D-BFD8-234034436EF5",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.20000000298023224,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
                                           ]
                                         },
                                         "name" : {
-                                          "type" : "spin"
+                                          "type" : "hide"
                                         }
                                       },
-                                      "identifier" : "06653B58-6B23-4187-A9C1-82DAACE789B5",
+                                      "identifier" : "E9869F09-B2BC-4C81-8B00-13D93A6EAC26",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "567E37AF-3BBF-4D60-9BB1-6D452201BF54",
+                              "identifier" : "10F46B89-E89F-4835-BEC1-0211C31D1B9D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.5,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "F0AC7601-9AE9-4A5B-8E81-2707F0F807F3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "AF9A3DFF-D9B3-4583-8638-51C4D59D40AD",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49803921580314636,
+                        0.50196081399917603,
+                        0.52549022436141968,
+                        1
+                      ],
+                      "identifier" : "6E9C4C1B-D924-4AFD-8225-E9529CAA64FC",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Pain Animate",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "PainAnimate"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "F0DFA635-3F6B-4811-A5CE-9161FD68F1B2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.tube-hit-fx-02\/Tube%20Hit%20FX%2002.caf",
+                                          "loops" : false,
+                                          "target" : [
+                                            "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "arguments" : "stereoBypass",
+                                          "type" : "soundtrack"
+                                        }
+                                      },
+                                      "identifier" : "C6C8485D-5879-4155-BA70-CA1479A63C01",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.20000000298023224,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "1F382479-755A-4851-9CE2-00FE525BA0DD"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "950B6D28-14A5-4D34-8712-9F454611EF5F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "87FC2FED-27A1-4D51-833F-FB5867CC1F93",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.5,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "1F382479-755A-4851-9CE2-00FE525BA0DD"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "BD5855A0-7BD3-4C96-9F3A-53A7F463E11B",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "3C82CCA4-369A-4FA4-A4F8-7650E4A473EF",
                               "isEnabled" : true
                             }
                           ],
@@ -770,22 +980,316 @@
                         0.61960786581039429,
                         1
                       ],
-                      "identifier" : "7F47ADEC-3F25-4367-AF4D-30B4C03BFF7C",
+                      "identifier" : "B65B234E-9093-45F5-BB00-0CB0A8B90A51",
                       "isEnabled" : true,
-                      "isLooping" : true,
+                      "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Vicks Spin",
+                      "name" : "Ear Animate",
                       "triggers" : [
                         {
                           "__content" : [
                             {
                               "configurationBox" : {
                                 "configuration" : {
-
+                                  "userIdentifier" : "EarAnimate"
                                 },
-                                "name" : "start"
+                                "name" : "custom"
                               },
-                              "identifier" : "79FFCD6F-D02B-48D0-A856-FD9A3BA8DE1F",
+                              "identifier" : "FB203CF2-2317-41B7-9A46-BAE70274CF64",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.tube-hit-fx-02\/Tube%20Hit%20FX%2002.caf",
+                                          "loops" : false,
+                                          "target" : [
+                                            "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "arguments" : "stereoBypass",
+                                          "type" : "soundtrack"
+                                        }
+                                      },
+                                      "identifier" : "6F8512FF-24ED-4C57-9C9E-B426D59BA42A",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.20000000298023224,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "03418D0B-1632-41C4-88A0-DF9642B6021D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "91375E01-64E9-4BAB-9191-08979D174893",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "438A9578-AA34-4DD9-8FD1-0754EB5CD31E",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.5,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "03418D0B-1632-41C4-88A0-DF9642B6021D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "7FDBADBA-86ED-433F-A02A-A65DA7A3E828",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "FB808C68-5805-4267-94A8-42F368AE853F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.69411766529083252,
+                        0.69019609689712524,
+                        0.63529413938522339,
+                        1
+                      ],
+                      "identifier" : "7BC6D34F-7EA3-465C-AE8B-42B8FD0C1DEE",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Chest Animate",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "ChestAnimate"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "52DC1664-DCF8-4DDE-9D87-338D538ED3B8",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.tube-hit-fx-02\/Tube%20Hit%20FX%2002.caf",
+                                          "loops" : false,
+                                          "target" : [
+                                            "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "arguments" : "stereoBypass",
+                                          "type" : "soundtrack"
+                                        }
+                                      },
+                                      "identifier" : "56BD9F13-C070-481B-9932-62BF00EABAC7",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.20000000298023224,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "703AB64A-2782-4C9B-A7BB-E80FBA6FFBFC"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "D11B6F8A-E207-4720-89A1-4A7D21963948",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "3850C7DD-D826-49B1-9152-6658437A5EB2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 0.5,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "703AB64A-2782-4C9B-A7BB-E80FBA6FFBFC"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "0AE148C2-978F-4CB2-9751-23623A5B9DEF",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "A3A5EA43-1DFF-4F64-879C-A427485B4E68",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.86274510622024536,
+                        0.3333333432674408,
+                        0.41568627953529358,
+                        1
+                      ],
+                      "identifier" : "37EEAD69-8908-4B61-AE2A-9D7C52C18EB8",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Back Animate",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "BackAnimate"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "2259817F-BA70-4DE2-901C-C18371CCFACB",
                               "isEnabled" : true
                             }
                           ],
@@ -995,6 +1499,20 @@
                             "typeName" : "UUID",
                             "value" : "850C6169-B01B-40E9-A5D4-45D9B7D5FC88"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -1013,7 +1531,7 @@
                         0.50000005960464478,
                         0,
                         0.070000000298023224,
-                        0.031012609601020813,
+                        0.070000000298023224,
                         7.4505805969238281e-09,
                         1
                       ]
@@ -1219,7 +1737,7 @@
                         0.50000005960464478,
                         0,
                         0,
-                        0.031012564897537231,
+                        0.070000000298023224,
                         -0.070000000298023224,
                         1
                       ]
@@ -1494,7 +2012,7 @@
                         0.50000005960464478,
                         0,
                         -0.070000000298023224,
-                        0.031012631952762604,
+                        0.070000000298023224,
                         3.7252902984619141e-09,
                         1
                       ]
@@ -1721,72 +2239,13 @@
                         0.50000005960464478,
                         0,
                         0,
-                        0.031012285500764847,
+                        0.070000000298023224,
                         0.070000000298023224,
                         1
                       ]
                     }
                   },
-                  "D1D47D86-33FA-4CD0-857A-0231156D2241" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "doubleSided",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "image",
-                          {
-                            "typeName" : "String",
-                            "value" : "image:b9215d0625e5400ef7da032cea8b7066\/Vicks_logo.png"
-                          }
-                        ],
-                        [
-                          "maxDimension",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.59399999999999997
-                          }
-                        ]
-                      ],
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PosterAssetFactory",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "D9697B7D-990F-4091-8E05-E1F87CC77A4C"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        0.079124823212623596,
-                        7.2110975679606781e-07,
-                        -3.957998479745678e-13,
-                        0,
-                        -3.0260696726180925e-11,
-                        3.3532230645505479e-06,
-                        0.079124830663204193,
-                        0,
-                        7.2110975679606781e-07,
-                        -0.079124830663204193,
-                        3.3532230645505479e-06,
-                        0,
-                        8.2241293853160813e-13,
-                        0.15000000596046448,
-                        -4.6900054369650168e-13,
-                        1
-                      ]
-                    }
-                  },
+                  "D1D47D86-33FA-4CD0-857A-0231156D2241" : null,
                   "D8CD3411-75FD-4B08-9A61-819F29073324" : null,
                   "DA79C05B-1350-403F-94CE-97CFA3C7B4CE" : null,
                   "E67AE72F-CAA3-45D4-9E99-BECC1FAFBDAB" : null,
@@ -1810,21 +2269,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.97218614816665649,
-                  -3.6135313052909623e-07,
-                  -0.23420923948287964,
+                  0.98392623662948608,
+                  -3.5762784023063432e-07,
+                  -0.17857490479946136,
                   0,
-                  -0.12124788761138916,
-                  0.85556662082672119,
-                  -0.50329375267028809,
+                  -0.077731743454933167,
+                  0.90028893947601318,
+                  -0.42829602956771851,
                   0,
-                  0.20038150250911713,
-                  0.5176926851272583,
-                  0.83177006244659424,
+                  0.16076883673667908,
+                  0.43529272079467773,
+                  0.8858180046081543,
                   0,
-                  0.24076996743679047,
-                  0.44772997498512268,
-                  0.6850852370262146,
+                  0.2778165340423584,
+                  0.43288806080818176,
+                  1.0065628290176392,
                   1
                 ],
                 "sceneTransform" : [
